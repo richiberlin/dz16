@@ -1,0 +1,46 @@
+.jumbotron {
+  display: flex;
+  flex-direction: column;
+  min-height: 500px;
+}
+
+.resume .alert {
+  display: none;
+}
+
+.resume.invalid input:invalid {
+  border-color: 243;
+}
+.resume.invalid input:invalid ~ .alert {
+  display: block;
+}
+.resume.invalid textarea:invalid {
+  border-color: 243;
+}
+.resume.invalid textarea:invalid ~ .alert {
+  display: block;
+}
+
+.list-item {
+  font-size: 15px;
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(34, 34, 34, 0.1);
+  cursor: pointer;
+}
+.list-item.active {
+  background-color: rgba(61, 59, 226, 0.2);
+}
+.list-item:hover {
+  color: #3d3be2;
+}
+.list-item h5 {
+  margin-bottom: 0.25rem;
+}
+.list-item small {
+  color: rgba(34, 34, 34, 0.6);
+}
+.list-item h5, .list-item small {
+  pointer-events: none;
+}
+
+/*# sourceMappingURL=app.66d5da61.css.map */
